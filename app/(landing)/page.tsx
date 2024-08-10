@@ -17,7 +17,7 @@ import OgImage from "@/public/logo_digital_dreamers.png";
 export default function page() {
   return (
     <>
-      <Cursor />
+      {/* <Cursor /> */}
       <div className="h-[100vh] w-[100vw]" id="page-one">
         <div className="absolute h-[100vh] w-[100vw] overflow-hidden grid grid-rows-[56px_1fr] grid-cols-2 max-md:grid-cols-1">
           <div className="absolute h-[100vh] w-[100vw] bg-image-2 opacity-20"></div>
@@ -34,7 +34,7 @@ export default function page() {
           </div>
           <div className="h-[100vh] w-[50vw] max-md:hidden flex flex-col row-span-2 justify-center bg-image"></div>
           <div className="h-[100%] w-[100%] max-md:w-[75vw] max-sm:w-[100vw] flex flex-col px-16 max-sm:px-8 max-sm:py-16 justify-center z-10">
-            <TypographyH1>Digital Dreamers</TypographyH1>
+            <TypographyH1>Mind</TypographyH1>
             <TypographyP className="pb-8">
               We are dedicated to helping businesses succeed in the digital
               world. Our team of experts specializes in web development, mobile
@@ -113,7 +113,7 @@ export default function page() {
             ></Image>
           </div>
           <div>
-            <TypographyH2>Digital Dreamers</TypographyH2>
+            <TypographyH2>Mind</TypographyH2>
             <TypographyP>Build your digital presence with us.</TypographyP>
           </div>
           <div className="flex flex-col gap-4">
